@@ -44,14 +44,6 @@ The platform is designed to showcase high-durability paint products, a project g
 
 ---
 
-## 📝 Configuration Note
-
-The mobile navigation is currently configured as a **Right-Hand Side Drawer**. If you need to adjust the drawer width or animation speed, locate the `/* Nav mobile */` section in `style.css`:
-
-
-
----
-
 ## 🏛️ About the Parent Company
 
 **St. Marcel Homes & Engineering Ltd** is a leading firm in the construction and engineering sector. Gravitex Paints was established to provide the high-performance finishes required for St. Marcel’s architectural projects, now available to the wider commercial and residential market.
@@ -59,7 +51,7 @@ The mobile navigation is currently configured as a **Right-Hand Side Drawer**. I
 ---
 
 ## 👨‍💻 Developer
-**Stephen Anyanwu** *Web Developer & University Student* 
+**Stephen Somtochukwu** *Web Developer* 
 
 ---
 
