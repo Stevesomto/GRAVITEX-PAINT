@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Quote | Gravitex Paint</title>
+  <meta name="description" content="Contact Gravitex Paint or request a custom quote. Speak with our specialists about interior, exterior, or industrial coating solutions." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <!-- ══════════════ NAV ══════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <div class="logo-con">
+        <a href="index.html" class="nav-logo">
+        <!-- <div class="logo-mark">G</div> -->
+        <div class="logo-text">
+          <!-- <span class="logo-name">Gravitex</span>
+          <span class="logo-tagline">Paint Manufacturing</span> -->
+          <a href="index.html"><img src="/img/logo.jpg" alt=""></a>
+        </div>
+        </a>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <!-- <a href="index.html#products">Products</a> -->
+        <a href="blog.html">Blog</a>
+        <a href="ceo.html">CEO</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html#quote" class="btn-nav-quote">Request a Quote</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════════ PAGE HERO ══════════════ -->
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&auto=format&fit=crop&q=70');"></div>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>Contact</span>
+      </div>
+      <h1>Get In Touch</h1>
+      <p>Our specialists are ready to help. Reach out for product inquiries, custom orders, or a free quote for your project.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT SECTION ══════════════ -->
+  <section class="contact-page section-py" id="contact">
+    <div class="container">
+      <div class="contact-page-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <span class="section-label">Contact Information</span>
+          <h2>We're Here to Help You Find the Right Solution</h2>
+          <p>Whether you need help choosing the right paint system, placing a bulk order, or planning a large-scale project, our team is available Monday through Friday, 7 AM – 6 PM EST.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4>Phone</h4>
+                <p>0703 292 5573 | 0915 404 0070 </p>
+                <p style="font-size:.85rem;color:var(--slate-lt);">Mon–Fri, 7 AM – 6 PM EST</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <h4>Email</h4>
+                <p>info@gravitexpaint.com</p>
+                <p style="font-size:.85rem;color:var(--slate-lt);">Response within 4 business hours</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Headquarters</h4>
+                <p>Plot 32 Arthur Eze Court Estae<br>Independence Layout, Enugu</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🏭</div>
+              <div>
+                <h4>Manufacturing Campus</h4>
+                <p>Plot 32 Arthur Eze Court Estae<br>Independence Layout, Enugu</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map Placeholder -->
+          <div class="map-placeholder">
+            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&auto=format&fit=crop&q=70" alt="Atlanta Georgia Map" />
+            <span class="map-pin">📍</span>
+          </div>
+        </div>
+
+        <!-- Quote Form -->
+        <div class="quote-form-wrap" id="quote">
+          <h3>Request a Free Quote</h3>
+          <p>Fill in your project details and we'll respond with a tailored proposal within 24 hours.</p>
+
+          <form class="quote-form" id="quoteForm" novalidate>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Jonathan" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Hargreaves" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="you@yourcompany.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" />
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company / Organization</label>
+              <input type="text" id="company" name="company" placeholder="Your company name" />
+            </div>
+
+            <div class="form-group">
+              <label for="paintType">Paint Type Required *</label>
+              <select id="paintType" name="paintType" required>
+                <option value="" disabled selected>Select a product line</option>
+                <option value="interior">Lumina Interior Series</option>
+                <option value="exterior">Fortis Exterior Series</option>
+                <option value="industrial">Armour Industrial Coatings</option>
+                <option value="primer">Gravitex Primer Systems</option>
+                <option value="specialty">Specialty / Custom Formula</option>
+                <option value="multiple">Multiple Product Lines</option>
+                <option value="unsure">Not Sure — Need Consultation</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="sqFootage">Estimated Square Footage *</label>
+                <input type="number" id="sqFootage" name="sqFootage" placeholder="e.g. 2500" min="1" required />
+              </div>
+              <div class="form-group">
+                <label for="timeline">Project Timeline</label>
+                <select id="timeline" name="timeline">
+                  <option value="" disabled selected>Select timeline</option>
+                  <option value="immediate">Immediately (within 2 weeks)</option>
+                  <option value="1month">Within 1 month</option>
+                  <option value="3months">Within 3 months</option>
+                  <option value="flexible">Flexible / Planning phase</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="projectType">Project Type</label>
+              <select id="projectType" name="projectType">
+                <option value="" disabled selected>Select project type</option>
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+                <option value="industrial">Industrial</option>
+                <option value="government">Government / Infrastructure</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Additional Details</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us more about your project, surface type, special requirements, etc."></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Request a Quote →</button>
+            <div class="form-success"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Gravitex Strip -->
+  <section style="background:var(--off-wh); padding:72px 0;">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:48px;">
+        <span class="section-label">Why Gravitex</span>
+        <h2 class="section-title">What You Can Expect After You Reach Out</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+        <div style="text-align:center;padding:32px 24px;background:var(--white);border-radius:var(--radius-lg);box-shadow:var(--shadow);">
+          <div style="font-size:2rem;margin-bottom:12px;">⚡</div>
+          <h4 style="font-family:var(--ff-disp);font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:8px;">24-Hour Response</h4>
+          <p style="font-size:.875rem;color:var(--slate);line-height:1.65;">Every quote request is reviewed by a specialist and responded to within one business day.</p>
+        </div>
+        <div style="text-align:center;padding:32px 24px;background:var(--white);border-radius:var(--radius-lg);box-shadow:var(--shadow);">
+          <div style="font-size:2rem;margin-bottom:12px;">🔬</div>
+          <h4 style="font-family:var(--ff-disp);font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:8px;">Expert Consultation</h4>
+          <p style="font-size:.875rem;color:var(--slate);line-height:1.65;">Our technical team evaluates your specific surface, environment, and goals to recommend the right product.</p>
+        </div>
+        <div style="text-align:center;padding:32px 24px;background:var(--white);border-radius:var(--radius-lg);box-shadow:var(--shadow);">
+          <div style="font-size:2rem;margin-bottom:12px;">📋</div>
+          <h4 style="font-family:var(--ff-disp);font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:8px;">Custom Proposal</h4>
+          <p style="font-size:.875rem;color:var(--slate);line-height:1.65;">You receive a detailed product specification, quantity calculation, and itemized pricing proposal.</p>
+        </div>
+        <div style="text-align:center;padding:32px 24px;background:var(--white);border-radius:var(--radius-lg);box-shadow:var(--shadow);">
+          <div style="font-size:2rem;margin-bottom:12px;">🚚</div>
+          <h4 style="font-family:var(--ff-disp);font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:8px;">Reliable Delivery</h4>
+          <p style="font-size:.875rem;color:var(--slate);line-height:1.65;">Gravitex logistics handles order fulfillment to your site, warehouse, or distribution center nationwide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-con">
+            <a href="index.html" class="nav-logo">
+            <!-- <div class="logo-mark">G</div> -->
+            <div class="logo-text">
+              <!-- <span class="logo-name">Gravitex</span>
+              <span class="logo-tagline">Paint Manufacturing</span> -->
+              <a href="index.html"><img src="/img/logo.jpg" alt=""></a>
+            </div>
+            </a>
+      </div>
+          <p>
+            Our premium quality paint gives your home a smooth, beautiful and long-lasting 
+            finish without the need for screeding. We deliver excellence with every application, saving you 
+            extra cost while still achieving a perfect look
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="ceo.html">Leadership</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="index.html#products">Interior Paints</a></li>
+            <li><a href="index.html#products">Exterior Coatings</a></li>
+            <li><a href="index.html#products">Industrial Series</a></li>
+            <li><a href="contact.html#quote">Request a Quote</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+2347032925573">0703 292 5573 </a></li>
+            <li><a href="tel:+2347032925573">0915 404 0070 </a></li>
+            <li><a href="mailto:info@gravitexpaint.com">info@gravitexpaint.com</a></li>
+            <li><a href="contact.html">Plot 32 Arthur Eze Court Estae<br>Independence Layout, Enugu</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Gravitex Paint Manufacturing Co. All rights reserved.</p>
+        <p> Designed & Developed by <a href="https://stephen-somtochukwu.vercel.app" style="color : orange">Stephen Somtochukwu</a>
+        <div class="footer-socials">
+          <a href="#" class="footer-social">in</a>
+          <a href="#" class="footer-social">fb</a>
+          <a href="#" class="footer-social">tw</a>
+          <a href="#" class="footer-social">ig</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">✕</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

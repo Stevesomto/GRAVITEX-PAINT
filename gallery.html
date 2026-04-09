@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Gravitex Paint</title>
+  <meta name="description" content="Explore Gravitex Paint's project gallery — interior, exterior, and industrial painting projects showcasing our premium coatings." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <!-- ══════════════ NAV ══════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <div class="logo-con">
+        <a href="index.html" class="nav-logo">
+        <!-- <div class="logo-mark">G</div> -->
+        <div class="logo-text">
+          <!-- <span class="logo-name">Gravitex</span>
+          <span class="logo-tagline">Paint Manufacturing</span> -->
+          <a href="index.html"><img src="/img/logo.jpg" alt=""></a>
+        </div>
+        </a>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <!-- <a href="index.html#products">Products</a> -->
+        <a href="blog.html">Blog</a>
+        <a href="ceo.html">CEO</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#quote" class="btn-nav-quote">Request a Quote</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════════ PAGE HERO ══════════════ -->
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&auto=format&fit=crop&q=70');"></div>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>Gallery</span>
+      </div>
+      <h1>Project Gallery</h1>
+      <p>From residential masterpieces to large-scale industrial applications — see the Gravitex difference for yourself.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════ GALLERY ══════════════ -->
+  <section class="gallery-page">
+    <div class="container">
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filter">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="interior">Interior</button>
+        <button class="filter-btn" data-filter="exterior">Exterior</button>
+        <button class="filter-btn" data-filter="industrial">Industrial</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+      </div>
+
+      <div class="gallery-page-grid">
+
+        <div class="gallery-page-item" data-category="interior"
+          data-lightbox="../img/house1.jpeg">
+          <img src="/img/house1.jpeg" alt="Luxury Living Room" />
+          <div class="gallery-page-overlay">
+            <h4>Ashford Residence</h4>
+            <span>Interior · Enugu, Nig</span>
+          </div>
+        </div>
+
+        <div class="gallery-page-item" data-category="exterior"
+          data-lightbox="..//img/house2.jpeg">
+          <img src="/img/house2.jpeg" alt="Exterior Building Facade" />
+          <div class="gallery-page-overlay">
+            <h4>Meridian Tower Facade</h4>
+            <span>Exterior · Emene, Enugu, Nigeria</span>
+          </div>
+        </div>
+
+        <div class="gallery-page-item" data-category="industrial"
+          data-lightbox="../img/logo.jpg">
+          <img src="/img/logo.jpg" alt="Industrial Floor Coating" />
+          <div class="gallery-page-overlay">
+            <h4>Nexus Logistics Hub</h4>
+            <span>Industrial · Memphis, TN</span>
+          </div>
+        </div>
+
+        <div class="gallery-page-item" data-category="interior"
+          data-lightbox="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1400&auto=format&fit=crop&q=85">
+          <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=700&auto=format&fit=crop&q=80" alt="Modern Office Interior" />
+          <div class="gallery-page-overlay">
+            <h4>Vertex Co. HQ Office</h4>
+            <span>Interior · Nashville, TN</span>
+          </div>
+        </div>
+
+        <div class="gallery-page-item" data-category="commercial"
+          data-lightbox="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&auto=format&fit=crop&q=85">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&auto=format&fit=crop&q=80" alt="Commercial Retail Space" />
+          <div class="gallery-page-overlay">
+            <h4>Harmon Retail Flagship</h4>
+            <span>Commercial · Miami, FL</span>
+          </div>
+        </div>
+
+        <div class="gallery-page-item" data-category="interior"
+          data-lightbox="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&auto=format&fit=crop&q=85">
+          <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=700&auto=format&fit=crop&q=80" alt="Kitchen Interior" />
+          <div class="gallery-page-overlay">
+            <h4>The Caldwell Kitchen</h4>
+            <span>Interior · Savannah, GA</span>
+          </div>
+        </div>
+
+        <div class="gallery-page-item" data-category="exterior"
+          data-lightbox="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=1400&auto=format&fit=crop&q=85">
+          <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=700&auto=format&fit=crop&q=80" alt="Exterior Residential" />
+          <div class="gallery-page-overlay">
+            <h4>Lakewood Estates</h4>
+            <span>Exterior · Birmingham, AL</span>
+          </div>
+        </div>
+
+        <div class="gallery-page-item" data-category="interior"
+          data-lightbox="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1400&auto=format&fit=crop&q=85">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&auto=format&fit=crop&q=80" alt="Living Room Interior" />
+          <div class="gallery-page-overlay">
+            <h4>Stonehaven Private Residence</h4>
+            <span>Interior · Charleston, SC</span>
+          </div>
+        </div>
+
+        <div class="gallery-page-item" data-category="commercial"
+          data-lightbox="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&auto=format&fit=crop&q=85">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&auto=format&fit=crop&q=80" alt="Commercial Office Building" />
+          <div class="gallery-page-overlay">
+            <h4>Pinnacle Business Centre</h4>
+            <span>Commercial · Jacksonville, FL</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Strip -->
+  <section style="background:var(--navy-dk); padding:72px 0; text-align:center;">
+    <div class="container">
+      <span class="section-label">Start Your Project</span>
+      <h2 style="font-family:var(--ff-disp);font-size:2.2rem;font-weight:700;color:var(--white);margin-bottom:16px;">Your Project Could Be Here Next</h2>
+      <p style="color:rgba(248,249,250,.6);font-size:1rem;margin-bottom:32px;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.7;">
+        Request a free consultation and quote. Our team will match you with the perfect Gravitex product for your project.
+      </p>
+      <a href="contact.html#quote" class="btn btn-primary">Request a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-con">
+            <a href="index.html" class="nav-logo">
+            <!-- <div class="logo-mark">G</div> -->
+            <div class="logo-text">
+              <!-- <span class="logo-name">Gravitex</span>
+              <span class="logo-tagline">Paint Manufacturing</span> -->
+              <a href="index.html"><img src="/img/logo.jpg" alt=""></a>
+            </div>
+            </a>
+      </div>
+          <p>
+            Our premium quality paint gives your home a smooth, beautiful and long-lasting 
+            finish without the need for screeding. We deliver excellence with every application, saving you 
+            extra cost while still achieving a perfect look
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="ceo.html">Leadership</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="index.html#products">Interior Paints</a></li>
+            <li><a href="index.html#products">Exterior Coatings</a></li>
+            <li><a href="index.html#products">Industrial Series</a></li>
+            <li><a href="contact.html#quote">Request a Quote</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+2347032925573">0703 292 5573 </a></li>
+            <li><a href="tel:+2347032925573">0915 404 0070 </a></li>
+            <li><a href="mailto:info@gravitexpaint.com">info@gravitexpaint.com</a></li>
+            <li><a href="contact.html">Plot 32 Arthur Eze Court Estae<br>Independence Layout, Enugu</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Gravitex Paint Manufacturing Co. All rights reserved.</p>
+        <p> Designed & Developed by <a href="https://stephen-somtochukwu.vercel.app" style="color : orange">Stephen Somtochukwu</a>
+        <div class="footer-socials">
+          <a href="#" class="footer-social">in</a>
+          <a href="#" class="footer-social">fb</a>
+          <a href="#" class="footer-social">tw</a>
+          <a href="#" class="footer-social">ig</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">✕</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
